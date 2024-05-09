@@ -41,5 +41,4 @@ describe('App', () => {
     expect(listItemElement).toBeDefined();
   });
 
-
 });
