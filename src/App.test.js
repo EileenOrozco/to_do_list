@@ -34,11 +34,11 @@ describe('App', () => {
      expect(listItemElement).toBeDefined();
   });
 
-  it('Que contenga la tarea "Leer un libro", ()=>{
+  it('Que contenga la tarea "Leer un libro"', () => {
     render(<App />);
 
-    const listItemElement = screen.getByText('Leer un libro')
+    const listItemElement = screen.getByText('Leer un libro');
     expect(listItemElement).toBeDefined();
-  }); 
-
+  });
+     
 });
