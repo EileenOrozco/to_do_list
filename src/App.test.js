@@ -39,6 +39,6 @@ describe('App', () => {
 
     const listItemElement = screen.getByText('Leer un libro')
     expect(listItemElement).toBeDefined();
-  });
+  }); 
 
 });
