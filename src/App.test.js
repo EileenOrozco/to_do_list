@@ -32,5 +32,14 @@ describe('App', () => {
 
      const listItemElement = screen.getByText('Comprar leche')
      expect(listItemElement).toBeDefined();
-     });
+  });
+
+  it('Que contenga la tarea "Leer un libro", ()=>{
+    render(<App />);
+
+    const listItemElement = screen.getByText('Leer un libro')
+    expect(listItemElement).toBeDefined();
+  });
+
+
 });
