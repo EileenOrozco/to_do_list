@@ -27,7 +27,7 @@ describe('App', () => {
     expect(listItemElement).toBeDefined();
   });
 
-  it('Que contenga la tarea "Comprar leche", ()=>{
+  it('Que contenga la tarea "Comprar leche"', ()=>{
      render(<App />);
 
      const listItemElement = screen.getByText('Comprar leche')
