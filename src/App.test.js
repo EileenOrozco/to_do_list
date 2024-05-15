@@ -17,7 +17,7 @@ describe('App', () => {
     render(<App />);
 
     const titleElement = screen.getByTestId('title');
-    expect(titleElement.textContent).toBe('App for manage To Do list');
+    expect(titleElement.textContent).toBe('App To Do list');
   });
 
   it('Que contenga la tarea "Mi Primera Tarea"', () => {
