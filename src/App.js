@@ -90,7 +90,7 @@ function App() {
     <div className="container App">
 
     <br /><br />
-    <h2 data-testid='title'>App for manage To Do list</h2>
+    <h2 data-testid='title'>App To Do list</h2>
     <br /><br />
 
     {updateData && updateData ? (
